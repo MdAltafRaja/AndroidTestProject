@@ -1,9 +1,9 @@
-package io.juspay.orca.paymentsheet.example
+package com.juspay.mylibrary
 
 import android.app.Activity
 import android.os.Bundle
 import android.util.Log
-import com.example.rnandroiddemoapp.BuildConfig
+import com.facebook.react.BuildConfig
 import com.facebook.react.ReactInstanceManager
 import com.facebook.react.ReactRootView
 import com.facebook.react.common.LifecycleState

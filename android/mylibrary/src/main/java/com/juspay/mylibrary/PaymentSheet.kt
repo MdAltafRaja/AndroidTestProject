@@ -1,6 +1,5 @@
-package io.juspay.orca.paymentsheet.example
+package com.juspay.mylibrary
 
-import android.app.Activity
 import android.content.Intent
 import androidx.activity.ComponentActivity
 
@@ -14,7 +13,7 @@ class PaymentSheet(private val activity: ComponentActivity) {
 
     class Configuration constructor(
         merchantDisplayName : String,
-        customer : PaymentSheet.CustomerConfiguration,
+        customer : CustomerConfiguration,
         allowsDelayedPaymentMethods:Boolean
     )
 

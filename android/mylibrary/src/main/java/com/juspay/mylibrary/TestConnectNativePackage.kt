@@ -1,4 +1,4 @@
-package io.juspay.orca.paymentsheet.example
+package com.juspay.mylibrary
 
 import android.util.Log
 import com.facebook.react.ReactPackage

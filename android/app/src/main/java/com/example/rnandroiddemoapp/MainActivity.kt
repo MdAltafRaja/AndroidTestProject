@@ -5,11 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
-import io.juspay.orca.paymentsheet.example.MyReactActivity
 
 
-import io.juspay.orca.paymentsheet.example.PaymentConfiguration
-import io.juspay.orca.paymentsheet.example.PaymentSheet
+import com.juspay.mylibrary.PaymentConfiguration
+import com.juspay.mylibrary.PaymentSheet
 
 
 class MainActivity : AppCompatActivity() {
@@ -47,7 +46,7 @@ class MainActivity : AppCompatActivity() {
     ) {
         Log.d("onclick", "3")
 
-        var customerConfiguration=PaymentSheet.CustomerConfiguration(
+        var customerConfiguration= PaymentSheet.CustomerConfiguration(
             id = "customer",
             ephemeralKeySecret = "ephemeralKey"
         )

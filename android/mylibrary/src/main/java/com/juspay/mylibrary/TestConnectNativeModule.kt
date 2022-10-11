@@ -1,4 +1,4 @@
-package io.juspay.orca.paymentsheet.example
+package com.juspay.mylibrary
 
 import android.content.Intent
 import android.util.Log
